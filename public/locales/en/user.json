@@ -1,0 +1,11 @@
+{
+  "forms": {
+    "userPreferenceShowstopper": {
+      "fields": {
+        "newsletter": {
+          "company": "Information sent by {{company}} <bold>to keep you up to date with the latest news.</bold>"
+        }
+      }
+    }
+  }
+}
