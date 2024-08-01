@@ -2,21 +2,34 @@ PODS:
   - Capacitor (6.1.1):
     - CapacitorCordova
   - CapacitorCordova (6.1.1)
+  - NewRelicAgent (7.5.0)
+  - NewrelicNewrelicCapacitorPlugin (1.5.0):
+    - Capacitor
+    - NewRelicAgent (= 7.5.0)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "NewrelicNewrelicCapacitorPlugin (from `../../node_modules/@newrelic/newrelic-capacitor-plugin`)"
+
+SPEC REPOS:
+  trunk:
+    - NewRelicAgent
 
 EXTERNAL SOURCES:
   Capacitor:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorCordova:
     :path: "../../node_modules/@capacitor/ios"
+  NewrelicNewrelicCapacitorPlugin:
+    :path: "../../node_modules/@newrelic/newrelic-capacitor-plugin"
 
 SPEC CHECKSUMS:
   Capacitor: 8941aba4364ba9d1b22188569001f2ce45cc2b00
   CapacitorCordova: 8f2cc8d8d3619c566e9418fe8772064a94266106
+  NewRelicAgent: 8123aa794e01918e3da5b134303568d5f3a2483b
+  NewrelicNewrelicCapacitorPlugin: 9720c52e79a541dc3c6500de275d1545bd8b49d1
 
-PODFILE CHECKSUM: 8ab55909c5de2b217f9841e5e5b329f5ec901553
+PODFILE CHECKSUM: 371913619f7cdacfc46f5828f3318c5051a2d0bb
 
 COCOAPODS: 1.15.2
